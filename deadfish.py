@@ -45,7 +45,7 @@ def main():
 	if len(sys.argv) == 2:
 		get_file(sys.argv[1])
 	else:
-		source = input("Please type your brainf*ck code: ")
+		source = input("Please type your deadfish code: ")
 		interpreter(source)
 
 
